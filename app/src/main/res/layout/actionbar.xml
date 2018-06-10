@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:id="@+id/action_bar"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <LinearLayout
+        android:gravity="left"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="100dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/update"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:textColor="@color/whiteSmoke"
+            android:background="@color/red"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:text="به روز رسانی" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="فال"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:id="@+id/mytext"
+        android:textSize="18sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+
+</LinearLayout>
