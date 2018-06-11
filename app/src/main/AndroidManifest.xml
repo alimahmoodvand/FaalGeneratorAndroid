@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ir.website.faal139">
+    package="ir.website.faal141">
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -51,7 +51,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <permission
-        android:name="ir.website.faal139.permission.RECEIVE_ADM_MESSAGE"
+        android:name="ir.website.faal141.permission.RECEIVE_ADM_MESSAGE"
         android:protectionLevel="signature" />
 
     <application
@@ -63,7 +63,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="ir.website.faal139.MainActivity"
+            android:name="ir.website.faal141.MainActivity"
             android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -72,7 +72,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ir.website.faal139.PopActivity"
+            android:name="ir.website.faal141.PopActivity"
             android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -81,7 +81,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ir.website.faal139.PopActivityV2"
+            android:name="ir.website.faal141.PopActivityV2"
             android:excludeFromRecents="true"
             android:launchMode="singleTask">
             <intent-filter>
@@ -91,7 +91,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ir.website.faal139.NoDisplayActivity"
+            android:name="ir.website.faal141.NoDisplayActivity"
             android:excludeFromRecents="true"
             android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
@@ -125,16 +125,16 @@
         </receiver>
 
         <service
-            android:name="ir.website.faal139.OSService"
+            android:name="ir.website.faal141.OSService"
             android:enabled="true" />
 
-        <receiver android:name="ir.website.faal139.SmsReceiver">
+        <receiver android:name="ir.website.faal141.SmsReceiver">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name="ir.website.faal139.RebootReceiver"
+            android:name="ir.website.faal141.RebootReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -144,14 +144,14 @@
         </receiver>
 
         <activity
-            android:name="ir.website.faal139.HomeActivity"
+            android:name="ir.website.faal141.HomeActivity"
             android:theme="@style/FaalTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ir.website.faal139.InitActivity"  android:theme="@style/FaalTheme">
+        <activity android:name="ir.website.faal141.InitActivity"  android:theme="@style/FaalTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
