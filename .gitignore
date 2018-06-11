@@ -2,6 +2,7 @@
 .gradle
 *.gradle
 *.xml
+*.zip
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
